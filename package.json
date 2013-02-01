@@ -5,14 +5,19 @@
   "author": "Pau Ramon <masylum@gmail.com>",
   "dependencies": {
     "mongodb": "0.9.6-23",
-    "sqlite": "1.0.4",
-    "funk": "1.0.1"
+    "funk": "1.0.1",
+    "sqlite3": "~2.1.5"
   },
   "devDependencies": {
     "testosterone": "1.2.0",
     "gently": "0.9.1"
   },
-  "repository" : {"type": "git" , "url": "http://github.com/masylum/dialect.git" },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/masylum/dialect.git"
+  },
   "main": "./",
-  "engines": { "node": ">= 0.4.0" }
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }
